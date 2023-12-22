@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: linear-gradient(to right, #800080, #FF69B4); /* Purple to Pink gradient */
+    text-align: center;
+    padding: 50px;
+}
+
+.fade-text {
+    color: white;
+    font-size: 2em;
+    animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
